@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+background: #141E30; 
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);  
+    background: linear-gradient(to top, #243B55, #141E30);
+    
+}
+
+#conteneur {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#welcome-section {
+    position: static
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -70%);
+    color: #fff;
+    max-width: 90%;
+    padding: 2em 3em;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 0px 2px #131415;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.25em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 100%;
+}
+nav{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    padding: 10px 0;
+}
+ul li {
+    display: inline-block;
+    list-style: none;
+    width: 100px;
+    text-align: center
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+    text-shadow: 0px 0px 2px #131415;
+    letter-spacing: 1px;
+
+}
+
+ul li:hover a{
+    color: rgb(6, 252, 227)
+}
