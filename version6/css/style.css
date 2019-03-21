@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.hidden{
+    display: none;
+}
+
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgb(51, 93, 111), #203A43);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main {
+    max-width: 1044px;
+    margin: auto;
+}
+
+
+section {
+    padding: 45px 0 80px 0;
+    border-radius: 20px;
+    border-top: 3px solid #d4d4d4;
+
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em;
+
+}
+
+/* ********************** SECTION ABOUT ********************** */
+
+#about {
+    margin: 120px auto;
+    padding: 5em 3em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.25em;
+    letter-spacing: 1px;
+}
+
+.profile-picture {
+    margin: 2em auto;
+}
+
+#photoProfil {
+    width: 200px;
+
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-expand-md .navbar-nav {
+    justify-content: space-between;
+    width: 1044px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+    background-color: #fff;
+    color: #141E30 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link.active {
+    background-color: #fff;
+}
+
+.button1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    display: inline-block;
+    border: 1px solid #FFF;
+    ;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 20px;
+}
+
+.button1:hover {
+    background: #fff;
+    color: transparent;
+    text-decoration: none;
+    transition: all 0.4s ease-in 0s;
+
+}
+
+/* ********************** SECTION SKILL ********************** */
+
+
+#skills {
+    text-align: center;
+    margin: 16px auto 0 auto;
+}
+
+#skills img {
+    width: 8%;
+    margin: 5px;
+    height: 8%;
+}
+#outils{
+    padding-top: 5em;
+}
+#outils img{
+    height: auto;
+}
+/* ********************** SECTION STUDENT ********************** */
+
+
+.education-block {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+
+.education-block h5 {
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.education-block h3 {
+    font-size: 20px;
+}
+
+.education-block h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+/* ********************** SECTION JOB ********************** */
+
+#experiences h2 {
+    color: #fff;
+}
+
+.timeline-heading p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.timeline-panel {
+    border: 1px solid #d4d4d4;
+    border-radius: 25px;
+}
+
+.timeline-heading h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.fa-clock {
+    color: grey;
+    font-size: 15px;
+}
+
+/* ********************** SECTION CONTACT ********************** */
+
+#contacts {
+    padding: 6px;
+    text-align: center;
+}
+
+#contacts .fab,
+#contacts .fas {
+    font-size: 35px;
+}
+
+#contacts .fab:hover,
+#contacts .fas:hover {
+    font-size: 45px;
+}
+
+/* ********************** FOOTER ********************** */
+footer {
+    font-style: italic;
+    padding: 1.5em;
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+footer .fa-arrow-alt-circle-up {
+    font-size: 25px;
+    margin: 25px;
+}
+
+/* ********************** SECTION PORTFOLIO ********************** */
+
+.conteneur{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.screen{
+	min-width: 30%;
+	height: 250px;
+	margin: 10px;
+}
+.screenBorder{
+	display: flex; 
+	justify-content: space-between;
+	background: #263A45;
+	color: white;
+	font-size: 10px;
+	padding: 8px;	
+	border-radius: 10px 10px 0px 0px;
+}
+.screenBox img{
+	width: 100%;
+	height: 230px;
+	border-radius: 0px 0px 10px 10px;
+}

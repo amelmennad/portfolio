@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amel Mennad</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top" id="navBar">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <i class="fas fa-bars fa-lg"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+            <ul class="nav nav-pills navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Moi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Formation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiences">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="about" class="container">
+        <div class="cold-xs-8 col-md-4 profile-picture">
+            <img src="img/amel_mennad-portrait.png" alt="Amel Mennad Portrait" class="rounded-circle" id="photoProfil">
+        </div>
+        <div class="heading text">
+            <h1>Bonjour, Moi c'est Amel</h1>
+            <h3>Je suis Développeuse Web （＾∀＾）</h3>
+            <p>En recherche active</p>
+            <a href="docs/amel_mennad-CV.pdf" target="_blank" class="button1">Télécharger mon CV</a>
+        </div>
+    </div>
+
+    <main>
+
+
+
+
+        <section id="skills" class="container">
+            <h2>Compétences techniques</h2>
+            <div class="container">
+                <div class="row" id="skill">
+                    <div class="front col-sm-4 col-xs-12 col-12">
+                        <h4>Langages Frontend</h4>
+                        <div class="row">
+                            <img src="img/langage-logo/html5.png" alt="Card image cap" class="col-sm-3">
+                            <img src="img/langage-logo/css3.png" alt="Card image cap" class="col-sm-3">
+                            <img src="img/langage-logo/JavaScript.png" alt="Card image cap" class="col-sm-3">
+                        </div>
+                    </div>
+                    <div class="back col-sm-4 col-xs-12 col-12">
+                        <h4>Langages Backend</h4>
+                        <div class="row">
+                            <img src="img/langage-logo/php.png" alt="Card image cap" class="col-sm-3">
+                            <img src="img/langage-logo/mysql.png" alt="Card image cap" class="col-sm-3">
+                            <img src="img/langage-logo/WordPress.png" alt="Card image cap" class="col-sm-3">
+                        </div>
+                    </div>
+                    <div class="back col-sm-4 col-xs-12 col-12">
+                        <h4>Frameworks</h4>
+                        <div class="row">
+                            <img src="img/langage-logo/Sass.png" alt="Card image cap" class="col-sm-3">
+                            <img src="img/langage-logo/bootstrap.png" alt="Card image cap" class="col-sm-3">
+                            <img src="img/langage-logo/jquery.png" alt="Card image cap" class="col-sm-3">
+                        </div>
+                    </div>
+                    <div class="back col-sm-12 col-xs-12 col-12" id="outils">
+                        <h4>Outils</h4>
+                        <div class="row">
+                            <div>
+
+                                <img src="img/outils/git.png" alt="Card image cap" class="col-sm-2">
+                                <img src="img/outils/mamp.png" alt="Card image cap" class="col-sm-2">
+                                <img src="img/outils/FileZilla.png" alt="Card image cap" class="col-sm-2">
+                                <img src="img/outils/Trello.png" alt="Card image cap" class="col-sm-2">
+                                <img src="img/outils/slack.png" alt="Card image cap" class="col-sm-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="heading">Portfolio</h2>
+                <div class="row">
+                    <div class="project col-xs-12 col-sm-6 col-md-4 block">
+                        <div class="screen">
+                            <div class="screenBorder">
+                                <div class="fish">
+                                    <i class="fas fa-fish"></i> <i class="fas fa-fish"></i> <i class="fas fa-fish"></i>
+                                </div>
+                                <div class="angles">
+                                    <i class="fas fa-angle-left"></i> <i class="fas fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="screenBox bloc1">
+
+                                <img id="imgProject1" class="img-thumbnail" data-item="1"
+                                    src="img/projets/siteweb/webagency.png" alt="">
+                                <div id="descriptProjet1" class="hidden" data-item="1">
+                                    <h3>Web Agency</h3>
+                                    <p>Mon tout premier site réalisé en HTML et CSS dans le cadre d'Opendeclic avec
+                                        OpenClassrooms</p>
+                                    <p>HTML, CSS</p>
+                                    <a href="https://webagency-ocr.amel-mennad.fr/" target="_blank">Le site</a>
+                                    <a href="" id="close1"><i class="fas fa-times"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project col-xs-12 col-sm-6 col-md-4 block">
+                        <div class="screen">
+                            <div class="screenBorder">
+                                <div class="fish">
+                                    <i class="fas fa-fish"></i> <i class="fas fa-fish"></i> <i class="fas fa-fish"></i>
+                                </div>
+                                <div class="angles">
+                                    <i class="fas fa-angle-left"></i> <i class="fas fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="screenBox bloc2">
+                                <img id="imgProject2" class="img-thumbnail" data-item="2"
+                                    src="img/projets/siteweb/Strasbourg-WP.png" alt="">
+                                <div id="descriptProjet2" class="hidden" data-item="2">
+                                    <h3>Web Agency</h3>
+                                    <p>Site WordPressavec modification du théme et respect d'un cahier des cahrge, réalisé dans le cadre d'Opendeclic avec
+                                        OpenClassrooms</p>
+                                    <p>WordPress, Pluging, CSS</p>
+                                    <a href="https://webagency-ocr.amel-mennad.fr/" target="_blank">
+                                        <a href=""><i class="fas fa-times"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="https://wagon-landingpage.amel-mennad.fr/" target="_blank">
+                            <img class="img-thumbnail" src="img/projets/wagonLandingPage.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="https://travelagency.amel-mennad.fr/" target="_blank">
+                            <img class="img-thumbnail" src="img/projets/travelAgency.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="https://webagency-ocr.amel-mennad.fr/" target="_blank">
+                            <img class="img-thumbnail" src="img/projets/webAgency.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="https://strasbourgwp.amel-mennad.fr/" target="_blank">
+                            <img class="img-thumbnail" src="img/projets/otStrasbourg.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="http://amel-mennad.fr/autres/chut-de-gif/" target="_blank">
+                            <img class="img-thumbnail" src="img/projets/chuitedegif.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="http://amel-mennad.fr/games/snake/" target="_blank">
+                            <img class="img-thumbnail" src="/img/projets/snake.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="http://amel-mennad.fr/games/pokemonsong/" target="_blank">
+                            <img class="img-thumbnail" src="/img/projets/pokemon.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="https://codepen.io/amelmennad/full/RqKLJv/" target="_blank">
+                            <img class="img-thumbnail" src="/img/projets/codepen.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <a href="https://amel-mennad.fr//" target="_blank">
+                            <img class="img-thumbnail" src="/img/projets/avenir.png" alt="">
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="container">
+            <h2>Formation</h2>
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="education-block">
+                        <p class="studentYear">2019</p>
+                        <p><i class="fas fa-chalkboard"></i></p>
+                        <h3>3W Academy</h3>
+                        <h4>Développeur intégrateur en réalisation d’applications web,</h4>
+                        <p>HTML 5, CSS3, Bootstrap, JavaScript, jQuery, PHP, MySQL </p>
+                        <p>Titre RNCP niveau III, équivalent bac+2 (Validé)</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="education-block">
+                        <p class="studentYear">2018</p>
+                        <p><i class="fas fa-chalkboard"></i></p>
+                        <h3>OpenClassrooms</h3>
+                        <h4>Développeur Web Junior (OpenDeclic)</h4>
+                        <p>Intégrez la maquette du site d'une agence web en HTML et CSS (Validé) </p>
+                        <p>Créez un site en personnalisant un thème WordPress (Validé)</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12  ">
+                    <div class="education-block">
+                        <p class="studentYear">2013-2017</p>
+                        <p><i class="fas fa-chalkboard-teacher"></i></p>
+                        <h3>Licence Science de la Vie</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12 ">
+                    <div class="education-block">
+                        <p class="studentYear">2010</p>
+                        <p><i class="fas fa-user-graduate"></i></p>
+                        <h3>Bac STSS, sanitaire et sociale</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="experiences" class="container">
+            <h2>Expériences Professionnelles</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 timeline-panel">
+                    <div class="timeline-heading">
+                        <p><i class="fas fa-file-medical"></i></p>
+                        <h3>Administratif</h3>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted"><i class="far fa-clock"></i> 2017-2018</p>
+                        <p>Secrétaire médical, Hôpital Tenon APHP</p>
+                        <p class="text-muted">
+                            <i class="far fa-clock"></i> 2017</p>
+                        <p>Archiviste, Hôpital Tenon APHP</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 timeline-panel">
+                    <div class="timeline-heading">
+                        <p><i class="fas fa-shopping-cart"></i></p>
+                        <h3>Vente</h3>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted"><i class="far fa-clock"></i> 2016</p>
+                        <p>Vendeuse - Chaussea, Clermont Ferrand</p>
+                        <p class="text-muted"><i class="far fa-clock"></i> 2012-2013</p>
+                        <p>Team Member - Prêt à Manger, Paris La Défense</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 timeline-panel">
+                    <div class="timeline-heading">
+                        <p><i class="fas fa-hands-helping"></i></p>
+                        <h3>Service à la personne</h3>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted"><i class="far fa-clock"></i> 2009-2010</p>
+                        <p>Garde d’enfants - Family Sphère, Levallois Perret</p>
+                        <p class="text-muted"><i class="far fa-clock"></i> 2008</p>
+                        <p>CHAPSA, Nanterre
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="container">
+            <h2>Contact et Réseaux sociaux</h2>
+            <div class="row" id="contacts">
+                <div class="col-md-2 col-sm-2 col-2">
+                    <div class="profilelink">
+                        <a href="mailto:mennad.amel@icloud.com" target="_blank" title="Mail">
+                            <i class="fas fa-at"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-2">
+                    <div class="profilelink">
+                        <a href="https://www.linkedin.com/in/amel-mennad/" target="_blank" title="Linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-2">
+                    <div class="profilelink">
+                        <a href="https://github.com/amelmennad" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-2">
+                    <div class="profilelink">
+                        <a href="https://twitter.com/amelmennad" target="_blank" title="Twiter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-2">
+                    <div class="profilelink">
+                        <a href="https://codepen.io/amelmennad/" target="_blank" title="CodePen">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 col-2">
+                    <div class="profilelink">
+                        <a href="https://www.freecodecamp.org/amelmennad" target="_blank" title="FreeCodeCamp">
+                            <i class="fab fa-free-code-camp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <a href="#about">
+            <i class="far fa-arrow-alt-circle-up"></i>
+        </a>
+        <h5>&#9400; 2018 - AMEL MENNAD</h5>
+        <p>Ce site est mon portfolio et tous les projets qu'il contient sont mes réalisations personnelles.</p>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="js/project.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
