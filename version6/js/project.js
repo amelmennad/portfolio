@@ -1,32 +1,18 @@
-/* var imageProject = document.getElementById('imgProject2');
-var decription = document.getElementById('descriptProjet2');
-var close = document.getElementById('close2');
+var selectCard = document.querySelectorAll("#portfolio .card");
+console.log(selectCard);
 
 
+for(var i = 0; i<selectCard.length; i++){
+    var listClass = selectCard[i].classList
+    console.log(listClass)
+    console.log(listClass.value)
 
-var dataImg = imageProject.dataset.item;
-var dataDescript = decription.dataset.item;
+    if (listClass.contains('html')){
+        console.log('dodo')
+    }
+    else{
+        console.log('oups')
+    }
 
-imageProject.addEventListener('click', function(){
-    imageProject.classList.toggle('hidden')
-    decription.classList.toggle('hidden')
-})
-
-close.addEventListener('click', function(){
-    imageProject.classList.toggle('hidden')
-    decription.classList.toggle('hidden')
-}) */
-
-
-document.getElementById('portfolio').addEventListener('click',function(event){
-    var currentElement = event.target;
-    console.log(currentElement);
-    console.log(currentElement.getAttribute('class'));
-    console.log(currentElement.dataset.item);
-
-    var brother = currentElement.nextElementSibling;
-    console.log(brother);    
-    console.log(brother.dataset.item);
-            
-});
+}
 
