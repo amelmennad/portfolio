@@ -19,11 +19,14 @@ close.addEventListener('click', function(){
 
 
 document.getElementById('portfolio').addEventListener('click',function(event){
+    var currentElement = event.target;
+    console.log(currentElement);
+    console.log(currentElement.getAttribute('class'));
+    console.log(currentElement.dataset.item);
 
-    
-    console.log(event.target);
-    console.log(event.target.getAttribute('class'));
-    console.log(event.target.dataset.item);
-
-        
+    var brother = currentElement.nextElementSibling;
+    console.log(brother);    
+    console.log(brother.dataset.item);
+            
 });
+
